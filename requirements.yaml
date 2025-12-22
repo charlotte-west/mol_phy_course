@@ -1,0 +1,11 @@
+name: mol_phy_course
+channels:
+  - pytorch
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.12
+  - pip
+  - pip:
+      - jupyter

@@ -1,11 +1,29 @@
 name: mol_phy_course
 channels:
-  - pytorch
   - conda-forge
-  - bioconda
-  - defaults
+
 dependencies:
-  - python=3.12
+  # Core
+  - python=3.11
   - pip
-  - pip:
-      - jupyter
+
+  # Jupyter
+  - jupyterlab
+  - ipykernel
+
+  # Scientific Python
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+
+  # Bioinformatics (Python)
+  - biopython
+  - scikit-bio
+
+  # Utilities
+  - tqdm
+  - click
+
+  # PyTorch
+  - pytorch

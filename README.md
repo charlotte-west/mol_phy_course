@@ -1,14 +1,17 @@
 # Molecular phylogenetics course
-This repository contains materials for the EMBL **molecular phylogenetics course**, as part of the 2nd year EMBL PhD bioinformatics course. The material is organised around Jupyter notebooks for each of the 3 days of the project. See overview.pdf for more details about the scientific background and motivation for the project. Below guides you through how to use the repository and notebooks. 
+This repository contains materials for the EMBL **molecular phylogenetics course**, as part of the 2nd year EMBL PhD bioinformatics course. The material is organised around a PDF document detailing tasks for 3 modules (one for each day):
 
-## Repository structure
+## Course overview
+- Day 1: Alignment
+- Day 2: Phylogenetic inference
+- Day 3: Phylodynamics
 
-```
-```
+There is a Jupyter notebook for the first day to help get you started. See overview.pdf for more details about the scientific background and motivation for the project. Below guides you through how to use the repository and notebook. 
+
 
 ## Getting started
 
-We recommend using **Visual Studio Code** or JupyterLab for exploring the notebooks.  To set up a working environment:
+We recommend using **Visual Studio Code** or JupyterLab for using the notebook. VSCode is also recommended for working through the tasks and code development outside of the day 1 notebook. To set up a working environment:
 
 1. **Install Conda**: If you do not already have a conda distribution (e.g., Miniconda), install it from <https://docs.conda.io/en/latest/miniconda.html>.
 
@@ -18,6 +21,12 @@ We recommend using **Visual Studio Code** or JupyterLab for exploring the notebo
 
    cd mol_phy_course
    ```
+   If you want to keep all of your code within this repository, we recommend creating your own git branch for developing your code, as you will not be able to push edits to the main branch.
+
+   ```bash
+   git checkout -b my_branch_name
+   ```
+
 3. **Create an environment**: Use the provided `requirements.yaml` to create a reproducible environment:
 
    ```bash
@@ -31,17 +40,10 @@ We recommend using **Visual Studio Code** or JupyterLab for exploring the notebo
    pip install --upgrade notebook jupyter_server jupyterlab jupyter_core traitlets
    ```
 
-4. **Launch notebooks**: Open the notebooks folder in VS Code or run
+4. **Launch notebooks**: Open the notebooks folder in VSCode or run
 
    ```bash
    jupyter notebook notebooks/
    ```
 
-## Course overview
-
-### Day 1: Alignment
-
-### Day 2: Phylogenetic inference
-
-### Day 3: Phylodynamics
 

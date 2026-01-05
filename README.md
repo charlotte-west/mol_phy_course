@@ -16,7 +16,7 @@ We recommend using **Visual Studio Code** or JupyterLab for using the notebook. 
 
 2. **Clone the repository**: clone the workshop repo to your local machine
    ```bash
-   git clone https://https://github.com/charlotte-west/mol_phy_course.git
+   git clone https://github.com/charlotte-west/mol_phy_course.git
 
    cd mol_phy_course
    ```
